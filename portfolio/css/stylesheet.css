@@ -1,1 +1,16 @@
-style
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title-logo{
+	margin-top: 15px;
+}
+
+.title-big{
+	font-size: 60px
+}
+
+.title-fade{
+	color:#BCBBBB;
+}
+

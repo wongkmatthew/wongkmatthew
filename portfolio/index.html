@@ -1,8 +1,99 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Portfolio</title>
+	<script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+	<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
+<div class="container">
+	<div class="row">
+		<div class="col-md-6" >
+			<img class="img-responsive title-logo" src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12729029_10154085979868243_5104158040112098029_n.jpg?oh=93de2fe273794552ddade8677c15bba2&oe=57907B02" width="25%" height="25%" alt="Profile Image">
+		</div>
+		<div class="col-md-6 text-right">
+			<h1 class="title-big">Matthew Wong</h1>
+			<h4>Portfolio</h4>
+			<h4>Line</h4>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<hr>
+	</div>
+	<div class="col-mid-12">
+		<img class="img-responsive" src="http://placehold.it/1350x350" alt="Body Image">
+	</div>
+	<div class="col-md-12">
+		<h2 class="title-fade">Featured Work</h2>
+	</div>
+	<div class="row text-center">
+		<div class="col-md-4">
+			<img class="img-responsive" src="http://placehold.it/450x250" data-toggle="modal" data-target="#work1" alt="Work 1">
+			<h3>Work 1</h3>
+			<p>Desc about Work 1</p>
+		</div>
+		<div class="col-md-4">
+			<img class="img-responsive" src="http://placehold.it/450x250" data-toggle="modal" data-target="#work2" alt"Work 2">
+			<h3>Work 2</h3>
+			<p>Desc about Work 2</p>
+		</div>
+		<div class="col-md-4">
+			<img class="img-responsive" src="http://placehold.it/450x250" data-toggle="modal" data-target="#work3" alt"Work 3">
+			<h3>Work 3</h3>
+			<p>Desc about Work 3</p>
+		</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Work 1</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/450x250">
+        In depth Work 1 description.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Work 2</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/450x250">
+        In depth Work 2 description.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Work 3</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/450x250">
+        In depth Work 3 description.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
