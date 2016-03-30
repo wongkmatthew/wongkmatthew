@@ -7,11 +7,11 @@ body {
 }
 
 .title-logo{
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .title-big{
-	font-size: 60px
+	font-size: 300%;
 }
 
 .title-fade{
