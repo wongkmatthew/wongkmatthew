@@ -1,3 +1,7 @@
+img, embed, object, video {
+	max-width:100%;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -13,4 +17,3 @@ body {
 .title-fade{
 	color:#BCBBBB;
 }
-
