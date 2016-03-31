@@ -1,19 +1,22 @@
-img, embed, object, video {
-	max-width:100%;
+img, 
+embed, 
+object, 
+video {
+	max-width: 100%;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.title-logo{
+.title-logo {
 	margin-top: 10px;
 }
 
-.title-big{
+.title-big {
 	font-size: 300%;
 }
 
-.title-fade{
-	color:#BCBBBB;
+.title-fade {
+	color: #BCBBBB;
 }
